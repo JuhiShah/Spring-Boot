@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.springboot.sbbasic</groupId>
+  <artifactId>SB_Basic</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SB_Basic</name>
+  
+  <properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<!-- TO DENOTE THAT OUR MAVEN PROJECT IS CHILD OF THIS SPRING BOOT PARENT 
+		PROJECT -->
+	<!-- CONTAINS ALL DEFAULT MAVEN CONFIGURATIONS -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<!-- <version>1.4.3.RELEASE</version> -->
+		<version>1.3.3.RELEASE</version>
+	</parent>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
+</project>
